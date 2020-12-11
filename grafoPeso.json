@@ -1,0 +1,27 @@
+{
+	"vertices": [
+	  {"nome":"sp", "x":70, "y":100, "nomePos":"left"},
+	  {"nome":"campinas","x":100,"y":20, "nomePos":"top"},
+	  {"nome":"jaguariuna","x":150,"y":100, "nomePos":"right"},
+	  {"nome":"mogimirim","x":200,"y":180, "nomePos":"right"},
+	  {"nome":"amparo","x":50,"y":200, "nomePos":"botton"},
+	  {"nome":"pedreira","x":120,"y":170, "nomePos":"botton"},
+	  {"nome":"cosmopolis","x":200,"y":50, "nomePos":"right"}
+	],
+	
+	"arestas": [
+		{"a":"sp", "b":"campinas", "peso":90},
+		{"a":"sp", "b":"cosmopolis", "peso":120},
+		{"a":"sp", "b":"pedreira", "peso":130},
+		{"a":"sp", "b":"pedreira", "peso":100},
+		{"a":"campinas", "b":"cosmopolis", "peso":40},
+		{"a":"campinas", "b":"jaguariuna", "peso":40},
+		{"a":"cosmopolis", "b":"jaguariuna", "peso":30},
+		{"a":"jaguariuna", "b":"mogimirim", "peso":50},
+		{"a":"mogimirim", "b":"pedreira", "peso":50},
+		{"a":"pedreira", "b":"amparo", "peso":20},
+		{"a":"pedreira", "b":"jaguariuna", "peso":20},
+		{"a":"amparo", "b":"sp", "peso":130}
+	  ]
+}
+
